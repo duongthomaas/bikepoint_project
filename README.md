@@ -1,4 +1,7 @@
-# TfL BikePoint Data Extractor
+<div align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/de/TfL_Roundel.svg/1200px-TfL_Roundel.svg.png" alt="TfL Logo" width="150" height="auto" />
+  <h1>TfL BikePoint Data Extractor</h1>
+</div>
 
 A robust Python script to fetch live docking station data from the Transport for London (TfL) BikePoint API. This tool downloads the full dataset of bike points, saves it as a timestamped JSON file, and maintains detailed execution logs.
 
