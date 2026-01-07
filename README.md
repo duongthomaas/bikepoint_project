@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="[https://upload.wikimedia.org/wikipedia/commons/thumb/a/de/TfL_Roundel.svg/1200px-TfL_Roundel.svg.png](https://commons.wikimedia.org/wiki/File:Transport_for_London_logo_%282013%29.svg)" alt="TfL Logo" width="150" height="auto" />
+  <img src="https://en.wikipedia.org/wiki/Transport_for_London" alt="TfL Logo" width="150" height="auto" />
   <h1>TfL BikePoint Data Extractor</h1>
 </div>
 
