@@ -1,5 +1,6 @@
-
+<div align="center">
 <img width="249" height="202" alt="download" src="https://github.com/user-attachments/assets/4b14523f-2e8a-4bbf-bacc-06d3d32dc265" />
+</div>
 
 A robust Python script to fetch live docking station data from the Transport for London (TfL) BikePoint API. This tool downloads the full dataset of bike points, saves it as a timestamped JSON file, and maintains detailed execution logs.
 
