@@ -24,11 +24,11 @@ logging.basicConfig(
 logger = logging.getLogger()
 
 #Add the following to your script when you want logging to occur:
-logger.debug("This is a debug message")    
-logger.info("System working")            
-logger.warning("Something unexpected")        
-logger.error("An error occurred")             
-logger.critical("Critical system error")
+# logger.debug("This is a debug message")    
+# logger.info("System working")            
+# logger.warning("Something unexpected")        
+# logger.error("An error occurred")             
+# logger.critical("Critical system error")
 
 # Documentation here https://api.tfl.gov.uk/swagger/ui/#!/BikePoint/BikePoint_GetAll
 url = "https://api.tfl.gov.uk/BikePoint"
