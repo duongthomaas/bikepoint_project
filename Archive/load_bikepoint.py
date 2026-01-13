@@ -73,9 +73,9 @@ if len(data_list) > 0:
         try:
             s3_client.upload_file(filepath, bucket_name, s3_filename)
             os.remove(filepath)
-            logger.info(f"Upload successful at {filename}") 
+            logger.info(f"{s3_filename} upload successful at {filename}") 
         except Exception as e:
             print(f"Failed to upload {s3_filename}: {e}")
-            logger.error(f"An error occurred: {e}")  
+            logger.error(f"An error occurred with {s3_filename}: {e}")  
 else:
     print("No files uploaded")
