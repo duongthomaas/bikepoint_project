@@ -58,15 +58,15 @@ for root, dirs, files in os.walk(path):
         full_path = os.path.join(root, file)
         data_list.append(full_path)
 
+s3_client = boto3.client(
+    's3'
+    , aws_access_key_id = AWS_ACCESS_KEY
+    , aws_secret_access_key = AWS_SECRET_KEY
+)
+
 if len(data_list) > 0:
 
     for filepath in data_list:
-
-        s3_client = boto3.client(
-            's3'
-            , aws_access_key_id = AWS_ACCESS_KEY
-            , aws_secret_access_key = AWS_SECRET_KEY
-        )
 
         s3_filename = os.path.basename(filepath)
 
